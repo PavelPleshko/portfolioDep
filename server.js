@@ -6,6 +6,7 @@ var credentials = require('./environment/environment').mailCredentials;
 var cors = require('cors')
 var assisters = require('./helpers/lib');
 var app=express();
+var PORT = 8080;
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
 app.use(cors());
@@ -51,8 +52,8 @@ smtpTransport.sendMail(mailOpts,function(response,error){
 
 
 
-app.listen(8080,function(){
-console.log("Express Started on Port 3000");
+app.listen(PORT,function(){
+console.log("Express Started on Port "+PORT);
 });
 
 
