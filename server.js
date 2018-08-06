@@ -23,7 +23,7 @@ var smtpTransport = nodemailer.createTransport({
     }
 });
 var oneYear = 1 * 365 * 24 * 60 * 60 *1000;
-app.use('/',express.static(__dirname + '/public',{maxAge:oneYear}));
+app.use(express.static(__dirname + '/public',{maxAge:oneYear}));
 app.get('/*',(req, res) => {  
   res.sendFile(__dirname+'/public/index.html');
 });
