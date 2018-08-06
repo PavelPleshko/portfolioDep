@@ -2,7 +2,6 @@ var express=require('express');
 var nodemailer = require("nodemailer");
 var bodyParser = require('body-parser');
 var compression = require('compression');
-var credentials = require('./environment/environment').mailCredentials;
 var cors = require('cors');
 var helmet = require('helmet');
 var assisters = require('./helpers/lib');
@@ -35,16 +34,14 @@ app.post('/send',function(req,res){
 var mailOpts = {
 	to:process.env.EMAIL_TO,
 	subject:req.body.name + " left a message from portfolio website",
-	from:credentials.email,
+	from:process.env.CLIENT_EMAIL,
 	text:assisters.createMsg(req.body),
 	html:assisters.createHtml(req.body)
 }
 smtpTransport.sendMail(mailOpts,function(response,error){
 	if(error){
-		console.log(error);
 		res.json(error);
 	}else{
-		console.log(response);
 		res.json(response);
 	}
 })
