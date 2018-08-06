@@ -1,0 +1,67 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/index.html",
+        "/0.e47287ae2cdf7e804904.chunk.js",
+        "/1.d7ff373fe7d4931f6d1f.chunk.js",
+        "/2.91d8f33c06e6a64d8287.chunk.js",
+        "/3.1b3cb3a23bed34e36686.chunk.js",
+        "/inline.4ee087e4091953b6953b.bundle.js",
+        "/main.ed6eed7cbdb0eadacb5f.bundle.js",
+        "/polyfills.c60e473c368dfd412f11.bundle.js",
+        "/styles.4827f3a9c0b418fe40fc.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/fonts/superstar.ttf",
+        "/assets/icons/apple-touch-icon.png",
+        "/assets/icons/favicon-16x16.png",
+        "/assets/icons/favicon-32x32.png",
+        "/assets/icons/favicon.ico",
+        "/assets/icons/safari-pinned-tab.svg",
+        "/assets/img/banner-contacts.jpg",
+        "/assets/img/banner.jpg",
+        "/assets/img/hero.png",
+        "/assets/img/status.png",
+        "/assets/img/status_mob.png",
+        "/assets/img/status_pad.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/0.e47287ae2cdf7e804904.chunk.js": "a6e81a4b580c2243981809861274e1c019b9f1d6",
+    "/assets/fonts/superstar.ttf": "509f9e70bf9d408718332c76045c81481310e22b",
+    "/1.d7ff373fe7d4931f6d1f.chunk.js": "e8094c1915db227cd24b48acf928459e3c6e92c9",
+    "/assets/icons/apple-touch-icon.png": "cc87ce9697a9a584f357e292528cacfde0f1fa48",
+    "/2.91d8f33c06e6a64d8287.chunk.js": "fc183e51c29d59712b202586445d6364b11024c0",
+    "/assets/icons/favicon-16x16.png": "c7dc0ca7dd2960ca3dfd5db62806f8c3251ef118",
+    "/3.1b3cb3a23bed34e36686.chunk.js": "c8b4c3daa1006b589ae46c3150585c188aa7af49",
+    "/assets/icons/favicon-32x32.png": "8a076b7fb07390cef625678bfe99c3f8055c31f8",
+    "/inline.4ee087e4091953b6953b.bundle.js": "525e930e64975de4f7eeac6ec6735d45e411ec83",
+    "/assets/icons/favicon.ico": "65309ab376180708dfd7791456e6f88cc1bcd023",
+    "/main.ed6eed7cbdb0eadacb5f.bundle.js": "7695b5485944e6e61ee59f33117500a612c01899",
+    "/assets/icons/safari-pinned-tab.svg": "35b2fa6a821ff6b7b4d8ebf8f82fcfccb173b2d4",
+    "/polyfills.c60e473c368dfd412f11.bundle.js": "bfa48f7bdafb81f698d6e3866e45747b2ee4a22b",
+    "/assets/img/banner-contacts.jpg": "8b7dd8d709caaa4562668f4b782f3407c1e7148f",
+    "/styles.4827f3a9c0b418fe40fc.bundle.css": "9ca346e3ec90143f2735f38002dbd9bdbb12bc30",
+    "/assets/img/banner.jpg": "dad286e0b245682816f84947e8c280c7c8608f20",
+    "/index.html": "ae4cb0f0304258d049326b727bf7d2989536fbe3",
+    "/assets/img/hero.png": "f3a14e875fa2ee6155976e34ea447d6549016d9d",
+    "/assets/img/status.png": "4521d0b5acc01a159cb1353c73b2009e6f020066",
+    "/assets/img/status_mob.png": "bd06c0f2ab5c51a5cb12f46cc19841fb1ccd4ac6",
+    "/assets/img/status_pad.png": "0a501a0c5edcebe656d0e94b470a85c3e32fded6"
+  }
+}
