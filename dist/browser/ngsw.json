@@ -1,0 +1,88 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/main.811d9f195ac1806d8a03.js"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons",
+        "https:\\/\\/use\\.fontawesome\\.com\\/releases\\/v5\\.2\\.0\\/css\\/all\\.css",
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.0\\.0\\/css\\/bootstrap\\.min\\.css",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Montserrat:400,700",
+        "https:\\/\\/code\\.jquery\\.com\\/jquery-3\\.2\\.1\\.slim\\.min\\.js",
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.0\\.0\\/js\\/bootstrap\\.min\\.js"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/fonts/superstar.ttf",
+        "/assets/icons/apple-touch-icon.png",
+        "/assets/icons/favicon-16x16.png",
+        "/assets/icons/favicon-32x32.png",
+        "/assets/icons/logo.png",
+        "/assets/icons/safari-pinned-tab.svg",
+        "/assets/img/banner-contacts.jpg",
+        "/assets/img/banner.jpg",
+        "/assets/img/hero.png",
+        "/assets/img/status.png",
+        "/assets/img/status_mob.png",
+        "/assets/img/status_pad.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "contentful",
+      "patterns": [
+        "https:\\/\\/cdn\\.contentful\\.com\\/spaces\\/ofnpzn1i8kol\\/environments\\/master\\/entries[^/]*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 25,
+      "maxAge": 43200000,
+      "timeoutMs": 7000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/fonts/superstar.ttf": "509f9e70bf9d408718332c76045c81481310e22b",
+    "/assets/icons/apple-touch-icon.png": "755c6573f440b9a0079d992ea904126f4ed3b6cc",
+    "/assets/icons/favicon-16x16.png": "7effd3ed4c94d33ceb7df687f0d799437bb74e4c",
+    "/assets/icons/favicon-32x32.png": "05e385c8f2a66d0d02d4ae21503c247925172588",
+    "/assets/icons/logo.png": "e77f830908833ffaaba098ec28e4e7e8e57e59d9",
+    "/assets/icons/safari-pinned-tab.svg": "5b09f5994796220aeec6b0d3166a41d7ad26e6b3",
+    "/assets/img/banner-contacts.jpg": "8b7dd8d709caaa4562668f4b782f3407c1e7148f",
+    "/assets/img/banner.jpg": "dad286e0b245682816f84947e8c280c7c8608f20",
+    "/assets/img/hero.png": "f3a14e875fa2ee6155976e34ea447d6549016d9d",
+    "/assets/img/status.png": "4521d0b5acc01a159cb1353c73b2009e6f020066",
+    "/assets/img/status_mob.png": "bd06c0f2ab5c51a5cb12f46cc19841fb1ccd4ac6",
+    "/assets/img/status_pad.png": "0a501a0c5edcebe656d0e94b470a85c3e32fded6",
+    "/main.811d9f195ac1806d8a03.js": "b77e6d36a29f8211024927bcc0a2ed682aa0db6c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
